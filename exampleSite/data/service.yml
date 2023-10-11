@@ -1,24 +1,34 @@
-enable  : true
-title   : WHAT WE LOVE TO DO
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci.
-image   : images/team.jpg
-serviceItem :
-  - icon  : ion-ios-paper-outline
-    title : BRANDING
+enable: true
+title: WHAT WE LOVE TO DO
+subtitle:
+image: images/slider.webp
+serviceItem:
+  - icon: ion-android-chat
+    title: Consultation
     description: >
-      Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum
+      From basic idea to architectural design and concepts definitions
 
-  - icon  : ion-ios-pint-outline
-    title : DESIGN
+  - icon: ion-document-text
+    title: Documentation
     description: >
-      Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum
+      SRS, API documentation, Project documentation, IT training
 
-  - icon  : ion-ios-paper-outline
-    title : DEVELOPMENT
+  - icon: ion-code-working
+    title: Development
     description: >
-      Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum
+      Frontend and Backend Development, also Fullstack development
 
-  - icon  : ion-ios-paper-outline
-    title : THEMEING
+  - icon: ion-bug
+    title: Code Review
     description: >
-      Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum
+      Delivery of flawless codes via several kinds of testing
+
+  - icon: ion-ios-fastforward
+    title: Automation
+    description: >
+      Fast implementation of business automation via low-code tools
+
+  - icon: ion-android-cloud-done
+    title: Cloud Management
+    description: >
+      Cost Effective cloud infrastructure for SMEs's services

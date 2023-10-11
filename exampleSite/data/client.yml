@@ -1,14 +1,14 @@
-enable  : true
-title   : OUR HAPPY CLIENTS
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.
+enable: true
+title: HAPPY CLIENTS
+subtitle: We continuously take challenges to make HAPPY CLIENTS...
 clientsLogo:
-  - image : images/clients/logo-1.jpg
-  - image : images/clients/logo-2.jpg
-  - image : images/clients/logo-3.jpg
-  - image : images/clients/logo-4.jpg
-  - image : images/clients/logo-5.jpg
-  - image : images/clients/logo-1.jpg
-  - image : images/clients/logo-2.jpg
-  - image : images/clients/logo-3.jpg
-  - image : images/clients/logo-4.jpg
-  - image : images/clients/logo-5.jpg
+  - image: images/clients/sakura logo.webp
+  - image: images/clients/solarityvr.webp
+  - image: images/clients/HenryKDiamonds-logo-2_160x.webp
+  - image: images/clients/ef.webp
+  - image: images/clients/cf.webp
+  - image: images/clients/sakura logo.webp
+  - image: images/clients/solarityvr.webp
+  - image: images/clients/HenryKDiamonds-logo-2_160x.webp
+  - image: images/clients/ef.webp
+  - image: images/clients/cf.webp

@@ -1,20 +1,23 @@
-enable  : true
-title   : Why We are Different
+enable: true
+title: What is Angeloper?
 description: >
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  <strong>Angeloper</strong> is an ambitious, young developer team that is on the mission of developing cutting edge softwares across fields of industry. <br>
+  The team is currently of 4 members - Mern Full stack developer, Python | Golang Developer, Senior Frontend Developer, DevOps.
+  We collaborate on many projects and dedicate help each other.<br>
+  We are, on the other hand, also building a brand new SaaS that will inspire people that are interested in AI, Blockchain. 
   <br>
   <br>
-  Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-image   : images/about/about-company.jpg
+  Our final goal is to build a new Software Company that will provide innovative solutions to SMEs all across the world.
+image: images/about/about-company.webp
 aboutItem:
-  - title : Why Choose Us
-    description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+  - title: Why Choose Us
+    description: >
+      At Angeloper software development team, we bring a wealth of expertise and experience to the table. With years of industry knowledge and a track record of successful projects, we have honed our skills to deliver exceptional results.
 
-  - title : What You Get
-    description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+  - title: What You Get
+    description: >
+      We pride ourselves on delivering top-notch development services. Our experienced team follows industry best practices and employs rigorous quality assurance measures to ensure that every project meets the highest standards.
 
-  - title : Meet The Energy
-    description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+  - title: Meet The Energy
+    description: >
+      We specialize in supporting small and medium-sized enterprises (SMEs), particularly startups, by providing them with the means to rapidly grow and select cost-effective solutions for their businesses on the way to succeed.

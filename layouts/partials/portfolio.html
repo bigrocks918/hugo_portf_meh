@@ -3,8 +3,10 @@
 <section id="works" class="works">
 	<div class="container">
 		<div class="section-heading">
-			{{ with .Site.Params.portfolio.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
-			{{ with .Site.Params.portfolio.subtitle }}<p class="wow fadeInDown" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+			{{ with .Site.Params.portfolio.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{
+			end }}
+			{{ with .Site.Params.portfolio.subtitle }}<p class="wow fadeInDown" data-wow-delay=".5s">{{ . }}</p>{{ end
+			}}
 		</div>
 		<div class="row">
 			{{ range $index, $element:= where .Site.RegularPages "Type" "portfolio" }}
@@ -34,6 +36,12 @@
 				</figure>
 			</div>
 			{{ end }}
+		</div>
+		<div class="row"
+			style="padding:20px; display:flex; text-align:center; justify-content: center; color: #727272;">
+			Please visit my github repositories and gitlab projects to get further insights about my skill and
+			experience.<br>
+			Many Projects are purely backend related, so I can not put them in here.
 		</div>
 	</div>
 </section>

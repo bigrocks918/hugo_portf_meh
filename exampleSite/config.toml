@@ -1,6 +1,7 @@
-baseURL = "https://demo.gethugothemes.com/timer/site/"
+baseURL = "https://localhost"
+port = 80
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "Mehmet Demir Portfolio"
 theme = "timer-hugo"
 # post pagination
 paginate = "2" # see https://gohugo.io/extras/pagination/
@@ -14,7 +15,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "About"
+name = "Team"
 url = "about/"
 weight = 2
 
@@ -28,10 +29,10 @@ name = "Gallery"
 url = "gallery/"
 weight = 4
 
-[[menu.main]]
-name = "Blog"
-url = "blog/"
-weight = 5
+# [[menu.main]]
+# name = "Blog"
+# url = "blog/"
+# weight = 5
 
 [[menu.main]]
 name = "Contact"
@@ -44,44 +45,55 @@ home = "Home"
 logo = "images/logo.png"
 dateFormat = "6 January 2006"
 # Meta data
-description = "Timer Hugo theme"
-author = "Themefisher"
+description = "Mehmet Demir - Full stack developer portfolio"
+author = "Mehmet Demir"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # contact form action
-contactFormAction = "#" # contact form works with https://formspree.io
+contactFormAction = "https://formspree.io/f/mwkdapnb" # contact form works with https://formspree.io
 
 # Banner Section
 [params.banner]
 enable = true
-bgImage = "images/slider.jpg"
-heading = "HI, MY NAME IS JONATHON & I AM A"
-description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+bgImage = "images/slider.webp"
+heading = "Mehmet Demir"
+description1 = "<strong>7 Years of experience</strong> is not a big deal for a <strong>developer</strong>. <br> Countinuous Learning is my password for the better future."
+description2 = ""
 # button
-btn = true
-btnText = "Download More"
-btnURL = "https://themefisher.com/"
+# btn = true
+[[params.gits]]
+btnText = "<i class='ion-social-github'></i> Github"
+btnURL = "https://github.com/bigrocks918"
+
+[[params.gits]]
+btnText = "<i class='fa-brands fa-gitlab'></i> Gitlab"
+btnURL = "https://gitlab.com/bigrocks918"
+
+[[params.gits]]
+btnText = "<i class='ion-coffee'></i> Gitea"
+btnURL = "https://git.bigrocks918.com/bigrocks918"
+
 
 # flip text
 [[params.banner.flipText]]
-title = "DESIGNER"
-[[params.banner.flipText]]
-title = "DEVELOPER"
+title = "morning jogger"
 [[params.banner.flipText]]
 title = "FATHER"
+[[params.banner.flipText]]
+title = "DEVELOPER"
 
 # Homepage About Section
 [params.about]
 enable = true
-title = "ABOUT ME"
-content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
-image = "images/about/about.jpg"
+title = "About Me"
+content = "Hello, I’m a <strong>Full Stack Developer</strong> from Sivas, Turkey. <br> I hold a <strong>Bachelor degree of Computer Science</strong> from the Istanbul University. <br> I use <strong>Python</strong>, <strong>Golang</strong>, <strong>PHP</strong>, <strong>javascript</strong>, and their frameworks to bring websites to life. <br> I find great joy in developing small <strong>desktop applications</strong> of my personal interests. <br> Industries I have worked for are <strong>E-commerce</strong>, <strong>Digital Marketing</strong>, <strong>Blockchain</strong>, <strong>Health care</strong>, <strong>Education</strong>. <br> I have certification in <strong>Amazon Web Service</strong> <strong>DevOps</strong> skills <br> <br> Combining my technical skills with a creative mindset, I strive to deliver seamless and visually appealing digital experiences."
+image = "images/about/about.webp"
 
 # Call to Action
 [params.cta]
 enable = true
-title = "SO WHAT YOU THINK ?"
-content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+title = "SO What's on your mind ?"
+content = "Inspiration does matter, you do have it! Let's make this inspiration into reality!"
 btnText = "Contact with me"
 btnURL = "/contact"
 
@@ -89,17 +101,37 @@ btnURL = "/contact"
 [params.portfolio]
 enable = true
 title = "Latest Works"
-subtitle = "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+subtitle = "Discover my most recent collaboration, a sleek and modern website that showcases the essence of innovative design."
 
 # social icon
-[[params.socialIcon]]
-icon = "ion-social-facebook"
-url = "#"
+# [[params.socialIcon]]
+# icon = "ion-social-facebook"
+# url = "#"
 
-[[params.socialIcon]]
-icon = "ion-social-instagram"
-url = "#"
+# [[params.socialIcon]]
+# icon = "ion-social-instagram"
+# url = "#"
 
 [[params.socialIcon]]
 icon = "ion-social-linkedin"
-url = "#"
+url = "https://www.linkedin.com/in/mehmet-demir-b98332259/"
+
+[[params.socialIcon]]
+icon = "fa-brands fa-dev"
+url = "https://dev.to/mehmetdemir"
+
+[[params.socialIcon]]
+icon = "ion-social-whatsapp"
+url = "https://www.wa.me/19403603024/text="
+
+[[params.socialIcon]]
+icon = "ion-social-skype"
+url = "https://join.skype.com/invite/MLdhrP1QrNC9"
+
+[[params.socialIcon]]
+icon = "fa-brands fa-discord"
+url = "https://discord.gg/DrkqwF5ZXR"
+
+[[params.socialIcon]]
+icon = "fa-brands fa-telegram"
+url = "https://t.me/bigrocks918"

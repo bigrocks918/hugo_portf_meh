@@ -6,7 +6,7 @@
 <section class="company-description">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+			<div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s" style="display: flex; align-items: center;">
 				{{ with .Site.Data.about.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
 			</div>
 			<div class="col-md-6">
@@ -31,7 +31,8 @@
 			{{ range $index, $element := .Site.Data.about.aboutItem }}
 			<div class="col-lg-4 px-0">
 				{{ $class := add $index 1 }}
-				<div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">
+				<div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms"
+					data-wow-delay=".3s">
 					{{ with .title }}<h2>{{ . }}</h2>{{ end }}
 					{{ with .description }}<p>{{ . }}</p>{{ end }}
 				</div>
@@ -42,7 +43,7 @@
 </section>
 {{ "<!--  Company Feature Section End -->" | safeHTML }}
 
-{{ partial "team.html" . }}
+<!-- {{ partial "team.html" . }} -->
 
 {{ partial "clients.html" . }}
 
