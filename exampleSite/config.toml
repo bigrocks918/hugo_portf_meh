@@ -47,7 +47,7 @@ dateFormat = "6 January 2006"
 description = "Mehmet Demir - Full stack developer portfolio"
 author = "Mehmet Demir"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "G-2GB0PPGPS1"
 # contact form action
 contactFormAction = "https://formspree.io/f/mwkdapnb" # contact form works with https://formspree.io
 
