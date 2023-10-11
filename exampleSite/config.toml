@@ -1,5 +1,4 @@
-baseURL = "https://localhost"
-port = 80
+baseURL = "https://bigrocks918.com"
 languageCode = "en-us"
 title = "Mehmet Demir Portfolio"
 theme = "timer-hugo"
