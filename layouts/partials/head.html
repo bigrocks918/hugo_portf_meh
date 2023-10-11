@@ -31,11 +31,14 @@
   {{ "<!-- hover -->" | safeHTML }}
   <link rel="stylesheet" href="https://bigrocks918.com/{{ `plugins/hover/hover-min.css` }}">
   {{ "<!-- template main css file -->" | safeHTML }}
-  {{ $styles := resources.Get "css/style.css" | minify}}
+  <!-- {{ $styles := resources.Get "css/style.css" | minify}} -->
+  <link rel="stylesheet" href="https://bigrocks918.com/css/style.css" media="screen">
   <link rel="stylesheet" href="https://bigrocks918.com/{{ $styles.Permalink }}" media="screen">
 
   {{"<!-- Custom stylesheet - for your changes -->" |safeHTML}}
-  {{ $custom := resources.Get "css/custom.css" | minify }}
+  <!-- {{ $custom := resources.Get "css/custom.css" | minify }} -->
+  <link rel="stylesheet" href="https://bigrocks918.com/css/custom.css" media="screen">
+
   <link rel="stylesheet" href="https://bigrocks918.com/{{ $custom.Permalink }}" media="screen">
 
 </head>

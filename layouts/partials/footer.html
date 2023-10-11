@@ -41,7 +41,8 @@
 {{ "<!-- Fancybox -->" | safeHTML }}
 <script src="https://bigrocks918.com/{{ `plugins/facncybox/jquery.fancybox.js` }}"></script>
 {{ "<!-- template main js -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
+<!-- {{ $script := resources.Get "js/script.js" | minify}} -->
+<script src="http://bigrocks918.com/js/script.js"></script>
 <script src="{{ $script.Permalink }}"></script>
 {{ "<!-- google analitycs -->" | safeHTML }}
 <script>
