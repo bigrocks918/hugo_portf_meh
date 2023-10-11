@@ -12,7 +12,8 @@
 
 					<div class="blog-post-image">
 						<a href="{{ .Permalink }}">
-							{{ with .Params.image }}<img class="img-fluid" src="{{ . | absURL }}" alt="post-image" />{{ end }}
+							{{ with .Params.image }}<img class="img-fluid" src="https://bigrocks918.com/{{ . }}"
+								alt="post-image" />{{ end }}
 						</a>
 					</div>
 					<div class="blog-content">
@@ -34,7 +35,8 @@
 						<p>
 							{{ .Summary }}
 						</p>
-						{{ with .Permalink }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right">Continue
+						{{ with .Permalink }}<a href="{{ . }}"
+							class="btn btn-dafault btn-details hvr-bounce-to-right">Continue
 							Reading</a>{{ end }}
 					</div>
 				</article>
